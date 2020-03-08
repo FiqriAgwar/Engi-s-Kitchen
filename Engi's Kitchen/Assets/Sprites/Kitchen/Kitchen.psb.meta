@@ -1,0 +1,987 @@
+fileFormatVersion: 2
+guid: ce57cc921f04a4c48b8d7d8837abc6e9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Grill Locked
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1237
+      y: 1093
+      width: 295
+      height: 191
+    spriteID: e8c6415ab1640e04e899cf84554cb379
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 913, y: 610}
+  - name: Grill Ready
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1052
+      y: 851
+      width: 294
+      height: 191
+    spriteID: 5fcb02cbde0158e47b1750ea40181c16
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1001, y: 368}
+  - name: Grill with Burned Chicken
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1540
+      y: 1093
+      width: 295
+      height: 191
+    spriteID: 6d70204e3041c5147aca0999673bb765
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1451, y: 402}
+  - name: Grill with Grilled Chicken
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 446
+      y: 851
+      width: 295
+      height: 191
+    spriteID: 3d3c38f1f65648a49a0c07aa2ac54358
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 161, y: 567}
+  - name: Grill with Raw Chicken
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 749
+      y: 851
+      width: 295
+      height: 191
+    spriteID: 55ada426cad8afc4cb47742292e37615
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 736, y: 567}
+  - name: Plate with Rice Tofu
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 514
+      y: 1396
+      width: 217
+      height: 154
+    spriteID: 4e67f216a4dfd234788fdc00a74506c1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -411, y: 526}
+  - name: Plate with Rice Burned Chicken copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1189
+      y: 1396
+      width: 216
+      height: 154
+    spriteID: 289d1a5e20c38794da3746c2a181c638
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -23, y: 681}
+  - name: Plate with Rice Grilled Chicken copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1413
+      y: 1396
+      width: 216
+      height: 154
+    spriteID: 70df7cbec588b774c8b9941a3aa2720b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -30, y: 681}
+  - name: Plate with Grilled Chicken copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1429
+      y: 695
+      width: 217
+      height: 143
+    spriteID: c99dec421e60c174198cc9d2a036adbd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1, y: -210}
+  - name: Plate with Burned Chicken copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1654
+      y: 695
+      width: 217
+      height: 143
+    spriteID: e4707e4452822a44295166eb90def533
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 492, y: -210}
+  - name: Plate with Rice Burned Chicken
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 739
+      y: 1396
+      width: 217
+      height: 154
+    spriteID: 00324c091d2817d42a731e62b68da4e8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 88, y: 895}
+  - name: Plate with Rice Grilled Chicken
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1637
+      y: 1396
+      width: 216
+      height: 154
+    spriteID: b5fa87303a86b3b488c5005cdbee8b3c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 755, y: 895}
+  - name: Plate with Grilled Chicken
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 679
+      y: 1585
+      width: 216
+      height: 143
+    spriteID: 64de7d1a83d6fff44a5d40d0068a5f2d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -189, y: 894}
+  - name: Plate with Burned Chicken
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1585
+      width: 217
+      height: 143
+    spriteID: ba650edc7cd8eae45932b00875771683
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -597, y: 894}
+  - name: Plate with Rice
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 964
+      y: 1396
+      width: 217
+      height: 154
+    spriteID: 49c14969e5c565342b5cada2c12ff939
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 39, y: 1107}
+  - name: Plate with Tofu
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 229
+      y: 1585
+      width: 217
+      height: 143
+    spriteID: 6165305d25e3f07448f342ccb9f8ff3b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -422, y: 742}
+  - name: Plate
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 454
+      y: 1585
+      width: 217
+      height: 143
+    spriteID: fadb13cea4e3d45489fd73f021a72a4c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -147, y: 1296}
+  - name: Pan Fried
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1354
+      y: 851
+      width: 247
+      height: 181
+    spriteID: a655a6dd7886b764aa38b50b6f86ddee
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -89, y: 579}
+  - name: Pan Frying
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1609
+      y: 851
+      width: 247
+      height: 181
+    spriteID: 74096287695859846a01fb89b0726ff8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 199, y: 379}
+  - name: Pan Locked
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1396
+      width: 247
+      height: 181
+    spriteID: 2fa08325f4c8d29459066a591107c969
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1192, y: 1126}
+  - name: Pan
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 259
+      y: 1396
+      width: 247
+      height: 181
+    spriteID: 1cc71745377c2fd439de953d44cd9e40
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -885, y: 924}
+  - name: Iced Tea Filled
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 4
+      width: 270
+      height: 295
+    spriteID: 3960a16c8e4e66e4fbda2c49057ca392
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 660, y: -1}
+  - name: Iced Tea Filling
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 307
+      width: 270
+      height: 295
+    spriteID: 4f9e563f78b1e0e4d96de3da78283d53
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 660, y: 302}
+  - name: Iced Tea Empty
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1093
+      width: 270
+      height: 295
+    spriteID: 41baab5595f6e0a4d9a419c33d14e6b9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1076, y: 1088}
+  - name: Chicken
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 851
+      width: 434
+      height: 234
+    spriteID: 41d92f8434b2346458a13b938e54d205
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -34, y: 839}
+  - name: Rice
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 282
+      y: 1093
+      width: 294
+      height: 254
+    spriteID: 2c2b35b458b18d2439de71f12e27e752
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -216, y: 1065}
+  - name: Tofu
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 584
+      y: 1093
+      width: 294
+      height: 213
+    spriteID: 58099111eacb41d46936b7467a7619e2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -206, y: 1081}
+  - name: Table
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 695
+      width: 1417
+      height: 148
+    spriteID: 0d74d3a35b20fd44fad37c8f885f3d09
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 695}
+  - name: Trash Can
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 886
+      y: 1093
+      width: 343
+      height: 176
+    spriteID: 4302b5def6b49f640892dba5e9d475bc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -499, y: 1093}
+  - name: Kitchen
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1728
+      height: 683
+    spriteID: 3e76a7829d800ba4da87c649d259fb7f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 1728, y: 1080}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 2048
+  textureActualHeight: 2048
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Grill Locked
+    spriteName: Grill Locked
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e8c6415ab1640e04e899cf84554cb379
+    layerID: 23
+    mosaicPosition: {x: 1237, y: 1093}
+  - name: Grill Ready
+    spriteName: Grill Ready
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5fcb02cbde0158e47b1750ea40181c16
+    layerID: 15
+    mosaicPosition: {x: 1052, y: 851}
+  - name: Grill with Burned Chicken
+    spriteName: Grill with Burned Chicken
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6d70204e3041c5147aca0999673bb765
+    layerID: 27
+    mosaicPosition: {x: 1540, y: 1093}
+  - name: Grill with Grilled Chicken
+    spriteName: Grill with Grilled Chicken
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3d3c38f1f65648a49a0c07aa2ac54358
+    layerID: 26
+    mosaicPosition: {x: 446, y: 851}
+  - name: Grill with Raw Chicken
+    spriteName: Grill with Raw Chicken
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 55ada426cad8afc4cb47742292e37615
+    layerID: 25
+    mosaicPosition: {x: 749, y: 851}
+  - name: Plate with Rice Tofu
+    spriteName: Plate with Rice Tofu
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4e67f216a4dfd234788fdc00a74506c1
+    layerID: 40
+    mosaicPosition: {x: 514, y: 1396}
+  - name: Plate with Rice Burned Chicken copy
+    spriteName: Plate with Rice Burned Chicken copy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 289d1a5e20c38794da3746c2a181c638
+    layerID: 44
+    mosaicPosition: {x: 1189, y: 1396}
+  - name: Plate with Rice Grilled Chicken copy
+    spriteName: Plate with Rice Grilled Chicken copy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 70df7cbec588b774c8b9941a3aa2720b
+    layerID: 43
+    mosaicPosition: {x: 1413, y: 1396}
+  - name: Plate with Grilled Chicken copy
+    spriteName: Plate with Grilled Chicken copy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c99dec421e60c174198cc9d2a036adbd
+    layerID: 42
+    mosaicPosition: {x: 1429, y: 695}
+  - name: Plate with Burned Chicken copy
+    spriteName: Plate with Burned Chicken copy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e4707e4452822a44295166eb90def533
+    layerID: 41
+    mosaicPosition: {x: 1654, y: 695}
+  - name: Plate with Rice Burned Chicken
+    spriteName: Plate with Rice Burned Chicken
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00324c091d2817d42a731e62b68da4e8
+    layerID: 33
+    mosaicPosition: {x: 739, y: 1396}
+  - name: Plate with Rice Grilled Chicken
+    spriteName: Plate with Rice Grilled Chicken
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b5fa87303a86b3b488c5005cdbee8b3c
+    layerID: 32
+    mosaicPosition: {x: 1637, y: 1396}
+  - name: Plate with Grilled Chicken
+    spriteName: Plate with Grilled Chicken
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 64de7d1a83d6fff44a5d40d0068a5f2d
+    layerID: 38
+    mosaicPosition: {x: 679, y: 1585}
+  - name: Plate with Burned Chicken
+    spriteName: Plate with Burned Chicken
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ba650edc7cd8eae45932b00875771683
+    layerID: 37
+    mosaicPosition: {x: 4, y: 1585}
+  - name: Plate with Rice
+    spriteName: Plate with Rice
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 49c14969e5c565342b5cada2c12ff939
+    layerID: 31
+    mosaicPosition: {x: 964, y: 1396}
+  - name: Plate with Tofu
+    spriteName: Plate with Tofu
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6165305d25e3f07448f342ccb9f8ff3b
+    layerID: 39
+    mosaicPosition: {x: 229, y: 1585}
+  - name: Plate
+    spriteName: Plate
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fadb13cea4e3d45489fd73f021a72a4c
+    layerID: 28
+    mosaicPosition: {x: 454, y: 1585}
+  - name: Pan Fried
+    spriteName: Pan Fried
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a655a6dd7886b764aa38b50b6f86ddee
+    layerID: 56
+    mosaicPosition: {x: 1354, y: 851}
+  - name: Pan Frying
+    spriteName: Pan Frying
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 74096287695859846a01fb89b0726ff8
+    layerID: 54
+    mosaicPosition: {x: 1609, y: 851}
+  - name: Pan Locked
+    spriteName: Pan Locked
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2fa08325f4c8d29459066a591107c969
+    layerID: 59
+    mosaicPosition: {x: 4, y: 1396}
+  - name: Pan
+    spriteName: Pan
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1cc71745377c2fd439de953d44cd9e40
+    layerID: 50
+    mosaicPosition: {x: 259, y: 1396}
+  - name: Iced Tea Filled
+    spriteName: Iced Tea Filled
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3960a16c8e4e66e4fbda2c49057ca392
+    layerID: 90
+    mosaicPosition: {x: 1740, y: 4}
+  - name: Iced Tea Filling
+    spriteName: Iced Tea Filling
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4f9e563f78b1e0e4d96de3da78283d53
+    layerID: 88
+    mosaicPosition: {x: 1740, y: 307}
+  - name: Iced Tea Empty
+    spriteName: Iced Tea Empty
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 41baab5595f6e0a4d9a419c33d14e6b9
+    layerID: 86
+    mosaicPosition: {x: 4, y: 1093}
+  - name: Chicken
+    spriteName: Chicken
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 41d92f8434b2346458a13b938e54d205
+    layerID: 75
+    mosaicPosition: {x: 4, y: 851}
+  - name: Rice
+    spriteName: Rice
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2c2b35b458b18d2439de71f12e27e752
+    layerID: 84
+    mosaicPosition: {x: 282, y: 1093}
+  - name: Tofu
+    spriteName: Tofu
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 58099111eacb41d46936b7467a7619e2
+    layerID: 78
+    mosaicPosition: {x: 584, y: 1093}
+  - name: Table
+    spriteName: Table
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0d74d3a35b20fd44fad37c8f885f3d09
+    layerID: 64
+    mosaicPosition: {x: 4, y: 695}
+  - name: Trash Can
+    spriteName: Trash Can
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4302b5def6b49f640892dba5e9d475bc
+    layerID: 68
+    mosaicPosition: {x: 886, y: 1093}
+  - name: Kitchen
+    spriteName: Kitchen
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3e76a7829d800ba4da87c649d259fb7f
+    layerID: 62
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: Kitchen Texture
+  prefabAssetName: Kitchen Prefab
+  spriteLibAssetName: Kitchen Sprite Lib
+  secondarySpriteTextures: []
