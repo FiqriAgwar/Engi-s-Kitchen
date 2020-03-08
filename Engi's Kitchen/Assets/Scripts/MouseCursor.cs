@@ -42,7 +42,6 @@ public class MouseCursor : MonoBehaviour
                 CustomCursor iterationCursor = listCursor[i];
                 if(currentCursorName == iterationCursor.nameCursor){
                     rend.sprite = iterationCursor.cursorSprite;
-                    return;
                 }
             }
         }
