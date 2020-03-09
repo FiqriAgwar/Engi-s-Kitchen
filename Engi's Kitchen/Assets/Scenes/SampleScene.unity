@@ -315,7 +315,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &166294245
+--- !u!1 &154321438
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -323,104 +323,134 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 166294247}
-  - component: {fileID: 166294246}
+  - component: {fileID: 154321442}
+  - component: {fileID: 154321441}
+  - component: {fileID: 154321440}
+  - component: {fileID: 154321439}
   m_Layer: 0
-  m_Name: Grill 4
+  m_Name: Plate 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!212 &166294246
-SpriteRenderer:
+--- !u!61 &154321439
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 166294245}
+  m_GameObject: {fileID: 154321438}
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 6919947018596183798, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.17, y: 1.43}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.17, y: 1.43}
+  m_EdgeRadius: 0
+--- !u!114 &154321440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154321438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd416032c8893f47863837d0ada83a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  possibleDishes:
+  - name: Chicken Burned
+    ingredients:
+    - Chicken Burned
+    sprite: {fileID: -7945639245098677958, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Chicken Burned with Fried Tofu
+    ingredients:
+    - Chicken Burned
+    - Tofu Fried
+    sprite: {fileID: 2367541286127869592, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Chicken Grilled
+    ingredients:
+    - Chicken Grilled
+    sprite: {fileID: -3076331960113185303, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Chicken Grilled with Fried Tofu
+    ingredients:
+    - Chicken Grilled
+    - Tofu Fried
+    sprite: {fileID: 6476880762831754087, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Rice
+    ingredients:
+    - Rice
+    sprite: {fileID: -1232539217266843308, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Rice with Chicken Burned
+    ingredients:
+    - Chicken Burned
+    - Rice
+    sprite: {fileID: 2033034167049629628, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Complete Burned
+    ingredients:
+    - Chicken Burned
+    - Rice
+    - Tofu Fried
+    sprite: {fileID: -8744211341446386161, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Rice with Chicken Grilled
+    ingredients:
+    - Chicken Grilled
+    - Rice
+    sprite: {fileID: 8891254528985354526, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Complete Grilled
+    ingredients:
+    - Chicken Grilled
+    - Rice
+    - Tofu Fried
+    sprite: {fileID: 1348160493995313801, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Rice with Tofu
+    ingredients:
+    - Rice
+    - Tofu Fried
+    sprite: {fileID: -2856036069060176899, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Tofu
+    ingredients:
+    - Tofu Fried
+    sprite: {fileID: 0}
+  prohibitedOnDish:
+  - Iced Tea
+  - Chicken Raw
+  - Tofu
+  currentDishName: 
+  normalPlate: {fileID: -639621709170390708, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &166294247
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 166294245}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.99, y: -1.955, z: -0.41806763}
-  m_LocalScale: {x: 0.8763617, y: 0.65784717, z: 0.05143226}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &175025462
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 175025464}
-  - component: {fileID: 175025463}
-  m_Layer: 0
-  m_Name: Plate 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &175025463
+  cases: []
+--- !u!212 &154321441
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175025462}
+  m_GameObject: {fileID: 154321438}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -465,19 +495,213 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &175025464
+--- !u!4 &154321442
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175025462}
+  m_GameObject: {fileID: 154321438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.107, y: -0.44, z: -0.41806763}
+  m_LocalPosition: {x: 1.12, y: -0.56, z: -0.41806763}
   m_LocalScale: {x: 0.9696296, y: 0.7278594, z: 0.056906}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &171414402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 171414406}
+  - component: {fileID: 171414405}
+  - component: {fileID: 171414404}
+  - component: {fileID: 171414403}
+  m_Layer: 0
+  m_Name: Plate 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &171414403
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171414402}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.17, y: 1.43}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.17, y: 1.43}
+  m_EdgeRadius: 0
+--- !u!114 &171414404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171414402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd416032c8893f47863837d0ada83a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  possibleDishes:
+  - name: Chicken Burned
+    ingredients:
+    - Chicken Burned
+    sprite: {fileID: -7945639245098677958, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Chicken Burned with Fried Tofu
+    ingredients:
+    - Chicken Burned
+    - Tofu Fried
+    sprite: {fileID: 2367541286127869592, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Chicken Grilled
+    ingredients:
+    - Chicken Grilled
+    sprite: {fileID: -3076331960113185303, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Chicken Grilled with Fried Tofu
+    ingredients:
+    - Chicken Grilled
+    - Tofu Fried
+    sprite: {fileID: 6476880762831754087, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Rice
+    ingredients:
+    - Rice
+    sprite: {fileID: -1232539217266843308, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Rice with Chicken Burned
+    ingredients:
+    - Chicken Burned
+    - Rice
+    sprite: {fileID: 2033034167049629628, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Complete Burned
+    ingredients:
+    - Chicken Burned
+    - Rice
+    - Tofu Fried
+    sprite: {fileID: -8744211341446386161, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Rice with Chicken Grilled
+    ingredients:
+    - Chicken Grilled
+    - Rice
+    sprite: {fileID: 8891254528985354526, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Complete Grilled
+    ingredients:
+    - Chicken Grilled
+    - Rice
+    - Tofu Fried
+    sprite: {fileID: 1348160493995313801, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Rice with Tofu
+    ingredients:
+    - Rice
+    - Tofu Fried
+    sprite: {fileID: -2856036069060176899, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Tofu
+    ingredients:
+    - Tofu Fried
+    sprite: {fileID: 0}
+  prohibitedOnDish:
+  - Iced Tea
+  - Chicken Raw
+  - Tofu
+  currentDishName: 
+  normalPlate: {fileID: -639621709170390708, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+  cases: []
+--- !u!212 &171414405
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171414402}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -639621709170390708, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &171414406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171414402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.11, y: -0.56, z: -0.41806763}
+  m_LocalScale: {x: 0.9696296, y: 0.7278594, z: 0.056906}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &275062418
 GameObject:
@@ -880,88 +1104,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.94, y: 2.54}
   m_EdgeRadius: 0
---- !u!1 &464767510
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 464767512}
-  - component: {fileID: 464767511}
-  m_Layer: 0
-  m_Name: Plate 4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &464767511
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 464767510}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -639621709170390708, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &464767512
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 464767510}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.261, y: -1.88, z: -0.41806763}
-  m_LocalScale: {x: 0.9696296, y: 0.7278594, z: 0.056906}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &483898361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1008,88 +1150,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &504760705
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 504760707}
-  - component: {fileID: 504760706}
-  m_Layer: 0
-  m_Name: Grill 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &504760706
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 504760705}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 6919947018596183798, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &504760707
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 504760705}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.485, y: -1.955, z: -0.41806763}
-  m_LocalScale: {x: 0.8763617, y: 0.65784717, z: 0.05143226}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -1523,6 +1583,200 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &646654484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 646654488}
+  - component: {fileID: 646654487}
+  - component: {fileID: 646654486}
+  - component: {fileID: 646654485}
+  m_Layer: 0
+  m_Name: Plate 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &646654485
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646654484}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.17, y: 1.43}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.17, y: 1.43}
+  m_EdgeRadius: 0
+--- !u!114 &646654486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646654484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd416032c8893f47863837d0ada83a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  possibleDishes:
+  - name: Chicken Burned
+    ingredients:
+    - Chicken Burned
+    sprite: {fileID: -7945639245098677958, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Chicken Burned with Fried Tofu
+    ingredients:
+    - Chicken Burned
+    - Tofu Fried
+    sprite: {fileID: 2367541286127869592, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Chicken Grilled
+    ingredients:
+    - Chicken Grilled
+    sprite: {fileID: -3076331960113185303, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Chicken Grilled with Fried Tofu
+    ingredients:
+    - Chicken Grilled
+    - Tofu Fried
+    sprite: {fileID: 6476880762831754087, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Rice
+    ingredients:
+    - Rice
+    sprite: {fileID: -1232539217266843308, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Rice with Chicken Burned
+    ingredients:
+    - Chicken Burned
+    - Rice
+    sprite: {fileID: 2033034167049629628, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Complete Burned
+    ingredients:
+    - Chicken Burned
+    - Rice
+    - Tofu Fried
+    sprite: {fileID: -8744211341446386161, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Rice with Chicken Grilled
+    ingredients:
+    - Chicken Grilled
+    - Rice
+    sprite: {fileID: 8891254528985354526, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Complete Grilled
+    ingredients:
+    - Chicken Grilled
+    - Rice
+    - Tofu Fried
+    sprite: {fileID: 1348160493995313801, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Rice with Tofu
+    ingredients:
+    - Rice
+    - Tofu Fried
+    sprite: {fileID: -2856036069060176899, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Tofu
+    ingredients:
+    - Tofu Fried
+    sprite: {fileID: 0}
+  prohibitedOnDish:
+  - Iced Tea
+  - Chicken Raw
+  - Tofu
+  currentDishName: 
+  normalPlate: {fileID: -639621709170390708, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+  cases: []
+--- !u!212 &646654487
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646654484}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -639621709170390708, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &646654488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646654484}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.28, y: -2.02, z: -0.41806763}
+  m_LocalScale: {x: 0.9696296, y: 0.7278594, z: 0.056906}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &691928791
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,6 +2039,8 @@ GameObject:
   m_Component:
   - component: {fileID: 907441825}
   - component: {fileID: 907441824}
+  - component: {fileID: 907441827}
+  - component: {fileID: 907441826}
   m_Layer: 0
   m_Name: Plate 1
   m_TagString: Untagged
@@ -1851,12 +2107,122 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907441823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.107, y: -0.44, z: -0.41806763}
+  m_LocalPosition: {x: -1.27, y: -2.02, z: -0.41806763}
   m_LocalScale: {x: 0.9696296, y: 0.7278594, z: 0.056906}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &907441826
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907441823}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.17, y: 1.43}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.17, y: 1.43}
+  m_EdgeRadius: 0
+--- !u!114 &907441827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907441823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd416032c8893f47863837d0ada83a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  possibleDishes:
+  - name: Chicken Burned
+    ingredients:
+    - Chicken Burned
+    sprite: {fileID: -7945639245098677958, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Chicken Burned with Fried Tofu
+    ingredients:
+    - Chicken Burned
+    - Tofu Fried
+    sprite: {fileID: 2367541286127869592, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Chicken Grilled
+    ingredients:
+    - Chicken Grilled
+    sprite: {fileID: -3076331960113185303, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Chicken Grilled with Fried Tofu
+    ingredients:
+    - Chicken Grilled
+    - Tofu Fried
+    sprite: {fileID: 6476880762831754087, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Rice
+    ingredients:
+    - Rice
+    sprite: {fileID: -1232539217266843308, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Rice with Chicken Burned
+    ingredients:
+    - Chicken Burned
+    - Rice
+    sprite: {fileID: 2033034167049629628, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Complete Burned
+    ingredients:
+    - Chicken Burned
+    - Rice
+    - Tofu Fried
+    sprite: {fileID: -8744211341446386161, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Rice with Chicken Grilled
+    ingredients:
+    - Chicken Grilled
+    - Rice
+    sprite: {fileID: 8891254528985354526, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Complete Grilled
+    ingredients:
+    - Chicken Grilled
+    - Rice
+    - Tofu Fried
+    sprite: {fileID: 1348160493995313801, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Rice with Tofu
+    ingredients:
+    - Rice
+    - Tofu Fried
+    sprite: {fileID: -2856036069060176899, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+      type: 3}
+  - name: Tofu
+    ingredients:
+    - Tofu Fried
+    sprite: {fileID: 0}
+  prohibitedOnDish:
+  - Iced Tea
+  - Chicken Raw
+  - Tofu
+  currentDishName: 
+  normalPlate: {fileID: -639621709170390708, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+  cases: []
 --- !u!1 &932426318
 GameObject:
   m_ObjectHideFlags: 0
@@ -2021,88 +2387,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &955918789
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 955918791}
-  - component: {fileID: 955918790}
-  m_Layer: 0
-  m_Name: Grill 3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &955918790
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 955918789}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 6919947018596183798, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &955918791
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 955918789}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.665, y: -0.485, z: -0.41806763}
-  m_LocalScale: {x: 0.8763617, y: 0.65784717, z: 0.05143226}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &986177635
 GameObject:
   m_ObjectHideFlags: 0
@@ -2261,6 +2545,142 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.94, y: 2.13}
   m_EdgeRadius: 0
+--- !u!1 &1029407092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1029407096}
+  - component: {fileID: 1029407095}
+  - component: {fileID: 1029407094}
+  - component: {fileID: 1029407093}
+  m_Layer: 0
+  m_Name: Grill 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1029407093
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029407092}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.95, y: 1.91}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.95, y: 1.91}
+  m_EdgeRadius: 0
+--- !u!114 &1029407094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029407092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a040f70654b55438f30f7d67339be0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unlock: 1
+  acceptableName: Chicken Raw
+  cookedName: Chicken Grilled
+  burnedName: Chicken Burned
+  cookTime: 3
+  burnTime: 2
+  locked: {fileID: 6919947018596183798, guid: ce57cc921f04a4c48b8d7d8837abc6e9, type: 3}
+  ready: {fileID: -8726243952617806165, guid: ce57cc921f04a4c48b8d7d8837abc6e9, type: 3}
+  cookingRaw: {fileID: -2629083036374433577, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+  cookingGrill: {fileID: -7450411697887654807, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+  burnedGrill: {fileID: 2006894436581876697, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+--- !u!212 &1029407095
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029407092}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 6919947018596183798, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1029407096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029407092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.16, y: -0.53, z: -0.41806763}
+  m_LocalScale: {x: 0.8763617, y: 0.65784717, z: 0.05143226}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1195724862
 GameObject:
   m_ObjectHideFlags: 0
@@ -2838,6 +3258,142 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.7, y: 2.95}
   m_EdgeRadius: 0
+--- !u!1 &1549332440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1549332444}
+  - component: {fileID: 1549332443}
+  - component: {fileID: 1549332442}
+  - component: {fileID: 1549332441}
+  m_Layer: 0
+  m_Name: Grill 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1549332441
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549332440}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.95, y: 1.91}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.95, y: 1.91}
+  m_EdgeRadius: 0
+--- !u!114 &1549332442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549332440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a040f70654b55438f30f7d67339be0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unlock: 1
+  acceptableName: Chicken Raw
+  cookedName: Chicken Grilled
+  burnedName: Chicken Burned
+  cookTime: 3
+  burnTime: 2
+  locked: {fileID: 6919947018596183798, guid: ce57cc921f04a4c48b8d7d8837abc6e9, type: 3}
+  ready: {fileID: -8726243952617806165, guid: ce57cc921f04a4c48b8d7d8837abc6e9, type: 3}
+  cookingRaw: {fileID: -2629083036374433577, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+  cookingGrill: {fileID: -7450411697887654807, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+  burnedGrill: {fileID: 2006894436581876697, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+--- !u!212 &1549332443
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549332440}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 6919947018596183798, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1549332444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549332440}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.6599998, y: -0.53, z: -0.41806763}
+  m_LocalScale: {x: 0.8763617, y: 0.65784717, z: 0.05143226}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1576702208
 GameObject:
   m_ObjectHideFlags: 0
@@ -3058,88 +3614,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1868696774
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1868696776}
-  - component: {fileID: 1868696775}
-  m_Layer: 0
-  m_Name: Plate 3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1868696775
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1868696774}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -639621709170390708, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1868696776
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1868696774}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.273, y: -1.89, z: -0.41806763}
-  m_LocalScale: {x: 0.9696296, y: 0.7278594, z: 0.056906}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1945873800
 GameObject:
   m_ObjectHideFlags: 0
@@ -3254,7 +3728,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2111604545}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.16, y: -0.485, z: -0.41806763}
+  m_LocalPosition: {x: -6.5, y: -2.11, z: -0.41806763}
   m_LocalScale: {x: 0.8763617, y: 0.65784717, z: 0.05143226}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3312,3 +3786,139 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.95, y: 1.91}
   m_EdgeRadius: 0
+--- !u!1 &2112613388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2112613392}
+  - component: {fileID: 2112613391}
+  - component: {fileID: 2112613390}
+  - component: {fileID: 2112613389}
+  m_Layer: 0
+  m_Name: Grill 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &2112613389
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112613388}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.95, y: 1.91}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.95, y: 1.91}
+  m_EdgeRadius: 0
+--- !u!114 &2112613390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112613388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a040f70654b55438f30f7d67339be0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unlock: 1
+  acceptableName: Chicken Raw
+  cookedName: Chicken Grilled
+  burnedName: Chicken Burned
+  cookTime: 3
+  burnTime: 2
+  locked: {fileID: 6919947018596183798, guid: ce57cc921f04a4c48b8d7d8837abc6e9, type: 3}
+  ready: {fileID: -8726243952617806165, guid: ce57cc921f04a4c48b8d7d8837abc6e9, type: 3}
+  cookingRaw: {fileID: -2629083036374433577, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+  cookingGrill: {fileID: -7450411697887654807, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+  burnedGrill: {fileID: 2006894436581876697, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+--- !u!212 &2112613391
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112613388}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 6919947018596183798, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &2112613392
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112613388}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4, y: -2.11, z: -0.41806763}
+  m_LocalScale: {x: 0.8763617, y: 0.65784717, z: 0.05143226}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
