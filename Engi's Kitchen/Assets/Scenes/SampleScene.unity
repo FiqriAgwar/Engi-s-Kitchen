@@ -3428,10 +3428,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1512202327}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6fa1f27b75c2e04f9481545db6b48a8, type: 3}
+  m_Script: {fileID: 11500000, guid: e4cc763531cab39439c07c7c41f07a74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resource: Iced Tea
+  readyName: Iced Tea
+  prepareTime: 3
+  ready: {fileID: -7211202847948069038, guid: ce57cc921f04a4c48b8d7d8837abc6e9, type: 3}
+  preparing: {fileID: -7682828943075851728, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
+  prepared: {fileID: -632153120789914017, guid: ce57cc921f04a4c48b8d7d8837abc6e9,
+    type: 3}
 --- !u!61 &1512202331
 BoxCollider2D:
   m_ObjectHideFlags: 0
